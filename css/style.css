@@ -1,0 +1,52 @@
+body{
+    background:url(/images/ice.jpg);
+}
+
+
+.jumbo{
+    height:25vh;
+    background:url(../images/bobby.webp);
+    background-size: cover; 
+}
+.jumbotron{
+    height:60vh;
+    background:url(../images/Hockey.jpeg);
+    background-size: cover;
+}
+   
+.logo{
+    height: 500px;
+    width: 500px;
+}
+
+.bg-green{
+    background-color:#036635;
+}
+
+.background-logo{
+    height: 1000px;
+    width: 1000px;
+}
+
+.centered-over-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+fieldset{
+    color: black;
+    display: block;
+    width: 45%;
+    border-color: red;
+}
+
+.yourcart ul{
+    position: initial;
+    list-style-type: none;
+    padding: 30px;
+    display:flex;
+    justify-content: space-evenly;
+    width: 450;
+}
